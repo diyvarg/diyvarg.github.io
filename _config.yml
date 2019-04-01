@@ -1,0 +1,4 @@
+collections:
+  test:
+    output: true
+    permalink: /test/:title.html
