@@ -1,3 +1,9 @@
+output: web
+highlighter:         pygments
+permalink:           pretty
+relative_permalinks: true
+
+
 collections:
   test:
     output: true
