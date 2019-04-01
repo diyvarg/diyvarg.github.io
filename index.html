@@ -3,6 +3,17 @@ v2
 
 
 <div id='dogs'>
+  {% for a in site.test %}
+    
+      <a href='{{ a.url }}'>{{ a.title }}</a>
+      <br/>
+  {% endfor %}
+</div>
+
+
+<hr/>
+
+<div id='dogs'>
   {% for a in site._test %}
     
       <a href='{{ a.url }}'>{{ a.title }}</a>
