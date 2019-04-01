@@ -1,4 +1,4 @@
 collections:
   test:
     output: true
-    permalink: /test/:title.html
+    permalink: /_test/:title.md
