@@ -2,6 +2,7 @@
 title: Не работает View - Source в IE
 tags: [ie, javascript]
 src: http://mindberg.blogspot.ru/2007/06/view-source-ie.html
+layout: default
 ---
 Ситуация: иногда бывает, что IE не может или не хочет отобразить код страниц. Т.е. вызов View – Source  не работает как предполагается.
 
