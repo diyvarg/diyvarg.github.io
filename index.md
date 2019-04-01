@@ -19,7 +19,10 @@ v3'
 <hr/>
 
 
-[test/index.html](_test/index.html)
+[_test/index.html](_test/index.html)
 <br/>
-
-[test/index.md](_test/index.md)
+[/_test/index.md](/_test/index.md)
+<br/>
+[_test/index.md](_test/index.md)
+<br/>
+[test/index.md](test/index.md)
