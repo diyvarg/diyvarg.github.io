@@ -4,7 +4,7 @@ permalink:           pretty
 # relative_permalinks: true        -- GitHub Pages and Jekyll no longer support relative permalinks.
 
 
-collections:
-  test:
-    output: true           # false - 404 для всех файлов.       при true - в браузере доступен  /_test/index.html  
-    permalink: /_test/:title.md
+#collections:
+#  test:
+#    output: true           # false - 404 для всех файлов.       при true - в браузере доступен  /_test/index.html  
+#    permalink: /_test/:title.md
