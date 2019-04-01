@@ -1,5 +1,5 @@
 ---
-title: Не работает View - Source в IE
+title: Не работает View - Source в IE        -- _POSTS
 tags: [ie, javascript]
 src: http://mindberg.blogspot.ru/2007/06/view-source-ie.html
 layout: default
