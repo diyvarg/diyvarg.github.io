@@ -34,7 +34,7 @@ v3'
 [blog/2007-06-28-view-source-does-not-work-in-ie.md](blog/2007-06-28-view-source-does-not-work-in-ie.md)
 
 <hr/>
-
+/blog/* <br/>
 <div id='dogs'>
   {% for a in site.blog %}
     
@@ -42,3 +42,16 @@ v3'
       <br/>
   {% endfor %}
 </div>
+
+
+<hr/>
+/_posts/* <br/>
+<div id='dogs'>
+  {% for a in site.posts %}
+    
+      <a href='{{ a.url }}'>{{ a.title }}</a>
+      <br/>
+  {% endfor %}
+</div>
+
+
