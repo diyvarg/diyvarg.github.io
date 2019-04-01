@@ -6,5 +6,5 @@ permalink:           pretty
 
 collections:
   test:
-    output: false           # true - в браузере доступен  /_test/index.html  
+    output: true           # false - 404 для всех файлов.       при true - в браузере доступен  /_test/index.html  
     permalink: /_test/:title.md
