@@ -1,1 +1,11 @@
 test/index.html
+
+
+
+<div id='dogs'>
+  {% for a in site.test %}
+    
+      <a href='{{ a.url }}'>{{ a.title }}</a>
+      <br/>
+  {% endfor %}
+</div>
