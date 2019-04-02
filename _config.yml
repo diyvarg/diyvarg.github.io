@@ -1,8 +1,8 @@
-# output: web
+output: web
 # highlighter:         pygments
-highlighter: rouge
+highlighter: pygments       # rouge
 
-#permalink:           pretty
+permalink:           pretty
 # relative_permalinks: true        -- GitHub Pages and Jekyll no longer support relative permalinks.
 
 
