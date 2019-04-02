@@ -20,12 +20,26 @@ git commit
 ```
 
 <hr/>
+%
+<br/>
+
 
 {% highlight ruby %}
 def cat
   puts 'I love cats'
 end
 {% endhighlight %}
+
+<hr/>
+
+'
+<br/>
+
+'''ruby
+def cat
+  puts 'I love cats'
+end
+'''
 
 
 
