@@ -86,6 +86,8 @@ P.S.
 
 <hr />
 
+' <br/>
+
 ```html
   <html>
     <body>
@@ -112,6 +114,7 @@ P.S.
 
 <hr />
 
+% <br/>
 
 {% highlight html %}
 
