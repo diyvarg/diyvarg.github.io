@@ -1,22 +1,12 @@
-output: web
 
 
-# highlighter:         pygments
-#highlighter: pygments       # rouge
-#markdown:   redcarpet 
-# highlighter: pygments 
-# redcarpet: extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-# -- primer
-#markdown: redcarpet
-#highlighter: pygments
 
 
 theme: jekyll-theme-primer
 
 
-permalink:           pretty
-# relative_permalinks: true        -- GitHub Pages and Jekyll no longer support relative permalinks.
+
 
 
 # подключим подкаталог            но можно использовать _posts  - подкаталог по-умолчанию
@@ -25,8 +15,3 @@ collections:
     output: true           # false - 404 для всех файлов.       при true - в браузере доступен  /_test/index.html  
     permalink: /_test/:title.md
 
-# -- primer
-# We specify the directory for Jekyll so we can use @imports.
-#sass:
-#  sass_dir:          _scss
-#  style:            :compressed
