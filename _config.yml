@@ -5,6 +5,10 @@ output: web
 
 theme: jekyll-theme-primer
 
+github:
+  source:
+    branch: "primer"
+    path: "/"
 
 
 
