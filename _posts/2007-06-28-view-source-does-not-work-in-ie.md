@@ -82,3 +82,31 @@ View Source. В Default записать: Z:\Projects\IE View Source\ViewSource.
 
 P.S.
 Все сказанное выше не поможет, если IE запущен в режиме Run As с включенным Run this Program with restricted access.
+
+
+<hr />
+
+```html
+  <html>
+    <body>
+      <script language="JavaScript" defer>
+        var win = external.menuArguments;
+        var szsource = win.document.documentElement.outerHTML;
+        var wincounter = 0;
+        var mywin = null;
+        do
+        {
+          mywin = window.open("about:blank", "Source" + wincounter++,        
+                              "toolbar=no,location=no,menubar=yes,status=yes,scrollbars=yes,resizable=yes");
+        }
+        while(mywin == null);
+        mywin.document.open("text/plain");
+        mywin.document.write(szsource);
+        mywin.document.close();
+        mywin.document.title = "Source for: " + win.location.href;
+      </script>
+    </body>
+  </html>
+  ```
+
+
