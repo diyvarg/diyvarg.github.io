@@ -21,6 +21,16 @@ git commit
 
 <hr/>
 
+{% highlight ruby %}
+def cat
+  puts 'I love cats'
+end
+{% endhighlight %}
+
+
+
+<hr/>
+
 Решение:
 <ol>
   <li>Создать папку, например, Z:\Projects\IE View Source</li>
