@@ -3,7 +3,7 @@
 output: web
 
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-primer
 
 github:
   source:
