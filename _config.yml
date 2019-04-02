@@ -7,9 +7,9 @@ output: web
 # highlighter: pygments 
 # redcarpet: extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-
-markdown: redcarpet
-highlighter: pygments
+# -- primer
+#markdown: redcarpet
+#highlighter: pygments
 
 
 theme: jekyll-theme-primer
@@ -25,8 +25,8 @@ collections:
     output: true           # false - 404 для всех файлов.       при true - в браузере доступен  /_test/index.html  
     permalink: /_test/:title.md
 
-
+# -- primer
 # We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _scss
-  style:            :compressed
+#sass:
+#  sass_dir:          _scss
+#  style:            :compressed
