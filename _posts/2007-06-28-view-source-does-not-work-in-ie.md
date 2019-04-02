@@ -48,8 +48,8 @@ end
 Решение:
 <ol>
   <li>Создать папку, например, Z:\Projects\IE View Source</li>
-  <li>Создать в ней файл: ViewSource.htm со следующим кодом:</li>
-
+  <li>Создать в ней файл: ViewSource.htm со следующим кодом:  
+   
   ```html
   <html>
     <body>
@@ -72,6 +72,7 @@ end
     </body>
   </html>
   ```
+  </li>
 </ol>  
 <ol start="3"> 
   <li>Запустить regedit; в ветке  HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt создать Key с именем 
