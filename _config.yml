@@ -12,6 +12,8 @@ markdown: redcarpet
 highlighter: pygments
 
 
+theme: jekyll-theme-primer
+
 
 permalink:           pretty
 # relative_permalinks: true        -- GitHub Pages and Jekyll no longer support relative permalinks.
