@@ -110,3 +110,30 @@ P.S.
   ```
 
 
+<hr />
+
+
+{% highlight html %}
+
+  <html>
+    <body>
+      <script language="JavaScript" defer>
+        var win = external.menuArguments;
+        var szsource = win.document.documentElement.outerHTML;
+        var wincounter = 0;
+        var mywin = null;
+        do
+        {
+          mywin = window.open("about:blank", "Source" + wincounter++,        
+                              "toolbar=no,location=no,menubar=yes,status=yes,scrollbars=yes,resizable=yes");
+        }
+        while(mywin == null);
+        mywin.document.open("text/plain");
+        mywin.document.write(szsource);
+        mywin.document.close();
+        mywin.document.title = "Source for: " + win.location.href;
+      </script>
+    </body>
+  </html>
+{% endhighlight %}
+
