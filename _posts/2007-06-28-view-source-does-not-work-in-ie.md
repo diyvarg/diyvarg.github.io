@@ -8,6 +8,19 @@ layout: default
 
 # header
 
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+<hr/>
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
+<hr/>
+
 Решение:
 <ol>
   <li>Создать папку, например, Z:\Projects\IE View Source</li>
